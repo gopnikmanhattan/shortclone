@@ -1,8 +1,8 @@
 # Defined in /tmp/fish.zSD0n5/clone.fish @ line 2
 function clone --description 'shortening for git clone by GopnikManhattan'
 argparse 'o/output=' 'h/help' -- $argv
-if $_flag_h > 0
-echo "clone is a fish plugin for shortening the git clone sintax wrote by GopnikManhattan"
+if test $_flag_h
+echo "shortclone is a fish plugin for shortening the git clone sintax wrote by GopnikManhattan"
 echo ""
 echo "OPTIONS: "
 echo "-h or --help: show this help page"
