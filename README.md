@@ -1,5 +1,5 @@
 # shortclone
-Fisher plugin for shortening the "git clone ..." sintax
+Fisher plugin for shortening the "git clone ..." syntax
 
 ## **Install** 
 `$ fisher add gopnikmanhattan/shortclone`
